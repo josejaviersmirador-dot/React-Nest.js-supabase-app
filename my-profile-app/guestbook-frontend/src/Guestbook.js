@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001/guestbook'; 
+const API_URL = 'https://orange-eureka-97r9v5vp6vp7hx6x7-3000.app.github.dev/guestbook';
 
 const Guestbook = () => {
   const [entries, setEntries] = useState([]);
